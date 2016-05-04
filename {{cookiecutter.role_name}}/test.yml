@@ -3,5 +3,5 @@
     - 'defaults/main.yml'
   tasks:
     - debug:
-        msg: "Owner: {{ {{ }}  {{cookiecutter.role_name}} {{ }} }}"
+        msg: "Owner: {% raw %} {{ {% endraw %} {{cookiecutter.role_name}} {% raw %} }} {% endraw %}"
     - include: 'tasks/main.yml'
