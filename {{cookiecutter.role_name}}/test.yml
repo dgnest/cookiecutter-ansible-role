@@ -1,0 +1,8 @@
+- hosts: all
+  vars_files:
+    - 'defaults/main.yml'
+  tasks:
+    - debug:
+        msg: "Owner: {{ {{cookiecutter.role_name}} }}"
+
+    - include: 'tasks/main.yml'

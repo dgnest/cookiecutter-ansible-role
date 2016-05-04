@@ -1,0 +1,5 @@
+---
+# vars file for {{cookiecutter.role_name}} (Ubuntu specific)
+
+_{{cookiecutter.short_role_name}}_package_dependencies:
+  - build-essential
