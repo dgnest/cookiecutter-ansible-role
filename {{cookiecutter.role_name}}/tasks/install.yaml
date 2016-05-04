@@ -1,0 +1,10 @@
+---
+# task for {{cookiecutter.role_name}}
+
+- include: install.d/CentOS.yaml
+  when: ansible_distribution == "CentOS"
+  tags: python
+
+- include: install.d/Ubuntu.yaml
+  when: ansible_distribution == "Ubuntu"
+  tags: python
