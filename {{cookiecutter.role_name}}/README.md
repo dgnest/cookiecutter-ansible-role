@@ -73,5 +73,5 @@ Copyright © {{cookiecutter.year}}, {{ cookiecutter.company }}
 
 <!-- Other -->
 
-[link-author]: {{github_author}}
+[link-author]: {{cookiecutter.github_author}}
 [link-contributors]: contributors
