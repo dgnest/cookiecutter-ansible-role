@@ -8,7 +8,7 @@
 </span>
 
 
-{{cookiecutter.description}}
+{{cookiecutter.short_description}}
 
 Install it with the following command:
 
