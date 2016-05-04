@@ -3,6 +3,5 @@
     - 'defaults/main.yml'
   tasks:
     - debug:
-        msg: "Owner: {{ {{cookiecutter.role_name}} }}"
-
+        msg: "Owner: {{ {{ }}  {{cookiecutter.role_name}} {{ }} }}"
     - include: 'tasks/main.yml'
