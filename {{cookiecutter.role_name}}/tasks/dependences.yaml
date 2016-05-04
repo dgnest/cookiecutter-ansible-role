@@ -1,0 +1,38 @@
+---
+
+# task file for {{cookiecutter.role_name}}
+
+- name: Update package repositories
+  sudo: yes
+  apt:
+    update_cache: True
+  when: ansible_distribution == "Ubuntu"
+  tags:
+    - apt
+    - update_cache
+
+- name: Install {{cookiecutter.short_role_name}} package dependencies
+  sudo: yes
+  apt:
+    name: "{{ item }}"
+    state: present
+  register: install_{{cookiecutter.short_role_name}}_package_dependencies
+  when: {{cookiecutter.short_role_name}}_package_dependencies is defined
+  with_items: {{cookiecutter.short_role_name}}_package_dependencies
+  tags:
+    - apt
+    - dependencies
+- debug: var=install_{{cookiecutter.short_role_name}}_package_dependencies.stdout_lines
+
+- name: Install {{cookiecutter.short_role_name}} dependencies
+  sudo: yes
+  apt:
+    name: "{{ item.name }}"
+    state: present
+  register: install_{{cookiecutter.short_role_name}}_dependencies
+  when: {{cookiecutter.short_role_name}}_dependencies is defined
+  with_items: {{cookiecutter.short_role_name}}_dependencies
+  tags:
+    - apt
+    - dependencies
+- debug: var=install_{{cookiecutter.short_role_name}}_dependencies.stdout_lines
