@@ -2,6 +2,7 @@
 	"full_name": "Luis Mayta",
 	"email": "slovacus@gmail.com",
 	"role_name": "Super.Role",
+	"short_role_name": "Role",
   "github_user": "hadenlabs",
   "github_author": "https://github.com/luismayta",
   "company": "hadenlabs",
@@ -11,5 +12,6 @@
 	"year": "2016",
 	"version": "0.0.0",
   "min_ansible_version": "1.6",
+  "license": "Mit",
   "allow_duplicates": "no"
 }
