@@ -1,7 +1,0 @@
-- hosts: all
-  vars_files:
-    - 'defaults/main.yml'
-  tasks:
-    - debug:
-        msg: "Owner: {% raw %} {{ {% endraw %} {{cookiecutter.role_name}} {% raw %} }} {% endraw %}"
-    - include: 'tasks/main.yml'
