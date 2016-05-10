@@ -1,6 +1,8 @@
 ---
 # task for {{cookiecutter.role_name}}
 
+- include: include_vars.yml
+
 - include: load.yaml
 
 - include: apps.yaml
@@ -15,8 +17,8 @@
 
 - include: configure.yaml
 
-- include: environment.yaml
-
 - include: install.yaml
+
+- include: environment.yaml
 
 - include: post_install.yaml
