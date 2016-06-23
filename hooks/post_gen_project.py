@@ -14,36 +14,6 @@ except NameError:
 
 folders = OrderedDict()
 
-folders['tasks']= {
-    'question': '\nShould it have tasks? ',
-    'hint': '  Add task name i.e (Install packages) ',
-    'action': '- name: {}\n  # TODO\n\n'
-}
-
-folders['handlers'] = {
-    'question': '\nShould it have handlers?',
-    'hint': '  Add handler name i.e (Restart uwsgi) ',
-    'action': '- name: {}\n  # TODO\n\n'
-}
-
-folders['defaults'] = {
-    'question': '\nIt should contain default variables?: ',
-    'hint': '  Add variable i.e (operator: drunken_master) ',
-    'action': '{}\n\n'
-}
-
-folders['meta']= {
-    'question': '\nShould it have meta info? ',
-    'pre_hint': ' - Should it have dependecies? ',
-    'pre_action': '\ndependencies:\n',
-    'hint': '    Add dependecy i.e ({role: aptsupercow, var: \'value\'}) ',
-    'action': '  - {}\n'
-}
-
-folders['templates'] = {
-    'question': '\nShould it have templates? ',
-}
-
 folders['files'] = {
     'question': '\nShould it have files? ',
 }
@@ -61,7 +31,7 @@ def configure_role():
                 pass
 
             if 'hint' in folder:
-                with open('{}/main.yml'.format(folder_name), 'a') as fp:
+                with open('{}/main.yaml'.format(folder_name), 'a') as fp:
 
                     if 'pre_hint' in folder:
                         if read_user_yes_no(folder['pre_hint'], default_value=u'yes'):

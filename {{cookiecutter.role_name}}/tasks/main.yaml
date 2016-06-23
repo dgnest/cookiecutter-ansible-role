@@ -1,7 +1,7 @@
 ---
 # task for {{cookiecutter.role_name}}
 
-- include: include_vars.yml
+- include: include_vars.yaml
 
 - include: load.yaml
 
