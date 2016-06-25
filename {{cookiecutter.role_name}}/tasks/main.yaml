@@ -19,6 +19,8 @@
 
 - include: install.yaml
 
+- include: templates.yaml
+
 - include: environment.yaml
 
 - include: post_install.yaml
