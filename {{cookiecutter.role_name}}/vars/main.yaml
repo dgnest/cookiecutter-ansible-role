@@ -10,7 +10,7 @@
 #     owner: "{{ user }}"
   {% endraw %}
 
-_{{cookiecutter.role_name}}:
-  templates:
-    - src: "default.j2"
-      dest: {{ "{{" }} _{{cookiecutter.role_name}}_file {{ "}}" }}
+# _{{cookiecutter.role_name}}:
+#   templates:
+#     - src: "default.j2"
+#       dest: {{ "{{" }} _{{cookiecutter.role_name}}_file {{ "}}" }}
