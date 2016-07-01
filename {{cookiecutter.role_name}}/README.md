@@ -69,7 +69,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 
 ---
-Copyright © {{cookiecutter.year}}, {{ cookiecutter.company }}
+
+Made with ♥️ and ☕️ by {{ cookiecutter.company }} and our community.
 
 <!-- Other -->
 
