@@ -3,8 +3,10 @@
 
 - include: install.d/CentOS.yaml
   when: ansible_distribution == "CentOS"
-  tags: python
+  tags:
+    - {{cookiecutter.short_role_name}}
 
 - include: install.d/Ubuntu.yaml
   when: ansible_distribution == "Ubuntu"
-  tags: python
+  tags:
+    - {{cookiecutter.short_role_name}}
