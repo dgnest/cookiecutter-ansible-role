@@ -40,44 +40,47 @@ Example:
     ROLE CONFIGURATION:
     ===================
 
-    Should it have tasks?  [Y/n]
-      Add task name i.e (Install packages) Add some task
-      Add task name i.e (Install packages) another task
-      Add task name i.e (Install packages)
-
-    Should it have handlers? [Y/n]
-      Add handler name i.e (Restart uwsgi) restart something
-      Add handler name i.e (Restart uwsgi) alert someone
-      Add handler name i.e (Restart uwsgi)
-
-    It should contain default variables?:  [Y/n]
-      Add variable i.e (operator: : drunken_master) var: name
-      Add variable i.e (operator: : drunken_master)
-
-    Should it have meta info?  [Y/n]
-     - Should it have dependecies?  [Y/n]
-        Add dependecy i.e ({role: aptsupercow, var: 'value'}) {role: cool, version: latest}
-        Add dependecy i.e ({role: aptsupercow, var: 'value'})
-
-    Should it have templates?  [Y/n] n
-
     Should it have files?  [Y/n] y
 
 This will generate this folders (Please note the absence of templates folder):
 
-    .
-    ├── CONTRIBUTORS.txt
+    ├── CHANGELOG.md
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── README.md
     ├── defaults
-    │   └── main.yml
+    │   └── main.yaml
     ├── files
     ├── handlers
-    │   └── main.yml
-    ├── LICENSE.rst
+    │   └── main.yaml
     ├── meta
     │   └── main.yml
-    ├── README.rst
-    └── tasks
-        └── main.yml
+    ├── tasks
+    │   ├── apps.yaml
+    │   ├── configure.yaml
+    │   ├── dependences.yaml
+    │   ├── environment.yaml
+    │   ├── files.yaml
+    │   ├── host.yaml
+    │   ├── include_vars.yaml
+    │   ├── install.d
+    │   │   ├── CentOS.yaml
+    │   │   └── Ubuntu.yaml
+    │   ├── install.yaml
+    │   ├── load.yaml
+    │   ├── main.yaml
+    │   ├── pip.yaml
+    │   ├── post_install.yaml
+    │   └── templates.yaml
+    ├── templates
+    │   └── default.j2
+    ├── tests
+    │   ├── inventory
+    │   └── test.yaml
+    └── vars
+        ├── CentOS.yaml
+        ├── Ubuntu.yaml
+        └── main.yaml
 
 ## Changelog
 
