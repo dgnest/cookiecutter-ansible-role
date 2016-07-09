@@ -1,2 +1,13 @@
 ---
 # vars file for {{cookiecutter.role_name}} (CentOS specific)
+
+_{{cookiecutter.short_role_name}}_package_dependencies:
+  - build-essential
+
+
+_{{cookiecutter.short_role_name}}_dependencies:
+  - name: build-essential
+    version: 1.0.0
+
+_{{cookiecutter.short_role_name}}_packages:
+  - packages

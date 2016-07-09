@@ -11,6 +11,6 @@
   {% raw %}
   apt: name={{ item }} state=present update_cache=yes
   {% endraw %}
-  with_items: {{cookiecutter.short_role_name}}_packages
+  with_items: _{{cookiecutter.short_role_name}}_packages
   tags:
     - {{cookiecutter.short_role_name}}
