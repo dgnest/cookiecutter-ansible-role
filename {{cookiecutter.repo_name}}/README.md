@@ -14,24 +14,20 @@ Install it with the following command:
 
 ```bash
 $ ansible-galaxy install {{cookiecutter.role_name}}
-
 ```
+
 Requirements
 ------------
 
 None
-
-
 
 ## Role Variables
 
 Here is the list of all variables and their default values:
 
 ```yaml
-    ---
-    # defaults file for {{cookiecutter.role_name}}
+# defaults file for {{cookiecutter.role_name}}
 ```
-
 
 ## Dependencies
 
@@ -44,11 +40,10 @@ See the [examples](./examples/) directory.
 To run this playbook with default settings, create a basic playbook like this:
 
 ```yaml
-    - hosts: servers
-      roles:
-        - {{cookiecutter.role_name}}
+- hosts: servers
+  roles:
+    - {{cookiecutter.role_name}}
 ```
-
 
 ## License
 
@@ -64,9 +59,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [author][link-author]
+- [Author][link-author]
 - [All Contributors][link-contributors]
-
 
 ---
 
