@@ -59,14 +59,14 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Author][link-author]
+Made with :heart: ️:coffee:️ and :pizza: by [{{ cookiecutter.company }}][link-company].
 - [All Contributors][link-contributors]
 
 ---
 
-Made with ♥️ and ☕️ by {{ cookiecutter.company }} and our community.
 
 <!-- Other -->
 
+[link-company]: https://github.com/{{ cookiecutter.company }}
 [link-author]: {{cookiecutter.github_author}}
-[link-contributors]: contributors
+[link-contributors]: AUTHORS

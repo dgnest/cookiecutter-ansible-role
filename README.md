@@ -1,9 +1,8 @@
 # Ansible Role Cookiecutter
 
 <span class="badges" align="center">
-[![Build Status](https://travis-ci.org/hadenlabs/cookiecutter-ansible-role.svg)](https://travis-ci.org/hadenlabs/cookiecutter-ansible-role)
-[![Stories in Ready](https://badge.waffle.io/hadenlabs/cookiecutter-ansible-role.svg?label=ready&title=Ready)](http://waffle.io/hadenlabs/cookiecutter-ansible-role)
-[![GitHub issues](https://img.shields.io/github/issues/hadenlabs/cookiecutter-ansible-role.svg)](https://github.com/hadenlabs/cookiecutter-ansible-role/issues)
+[![Build Status](https://travis-ci.org/dgnest/cookiecutter-ansible-role.svg)](https://travis-ci.org/dgnest/cookiecutter-ansible-role)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/cookiecutter-ansible-role.svg)](https://github.com/dgnest/cookiecutter-ansible-role/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
@@ -26,7 +25,7 @@ It infuses antigravity (or maybe not).
 
 ## Usage
 
-    cookiecutter https://github.com/hadenlabs/cookiecutter-ansible-role.git
+    cookiecutter https://github.com/dgnest/cookiecutter-ansible-role.git
 
 It begin to ask you configuration variables then you can enter tasks names,
 handlers names, and default variables.
@@ -92,14 +91,14 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Luis Mayta][link-luis]
+Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+
 - [All Contributors][link-contributors]
-
-
-<!-- Other -->
+ -->
 
 [link-cookiecutter]: https://www.cookiecutter.com
 [link-luis]: https://github.com/luismayta
-[link-contributors]: contributors
+[link-contributors]: AUTHORS
+[link-company]: https://github.com/dgnest
 [link-playbooks-roles]: http://docs.ansible.com/playbooks_roles.html#roles
 [link-best-practices]: http://docs.ansible.com/playbooks_best_practices.html
