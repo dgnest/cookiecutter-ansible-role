@@ -25,9 +25,9 @@ None
 
 Here is the list of all variables and their default values:
 
-```yaml
-# defaults file for {{cookiecutter.role_name}}
-```
+| Name                                    | Default                       | Description                                   |
+|:----------------------------------------|:------------------------------|:----------------------------------------------|
+
 
 ## Dependencies
 
