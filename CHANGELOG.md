@@ -9,7 +9,8 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 ### Added:
 - fixed
 
-[unreleased]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.4...HEAD
+[unreleased]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.5...HEAD
+[0.1.5]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.4...0.1.5
 [0.1.4]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.1...0.1.2
