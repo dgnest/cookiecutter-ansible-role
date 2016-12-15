@@ -26,7 +26,7 @@ pre:
 # attach: false
 
 # Runs after everything. Use it to attach to tmux with custom options etc.
-# post: tmux -CC attach -t ansible-role-nodejs
+# post: tmux -CC attach -t {{cookiecutter.repo_name}}
 
 windows:
   - editor:
