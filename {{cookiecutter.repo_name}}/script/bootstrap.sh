@@ -8,13 +8,6 @@ PYENV_NAME="${PROJECT_NAME}"
 export PYTHON_VERSION=2.7.9
 export PYENV_NAME="${PROJECT_NAME}"
 
-export GVM_NAME="${PROJECT_NAME}"
-export GVM_PATHS_NAME=(
-    "src"
-    "pkg"
-    "bin"
-)
-
 export GRIP_PORT=6430
 
 # Vars Dir
