@@ -1,11 +1,8 @@
 # Ansible Role {{cookiecutter.repo_name}}
 
-<span class="badges" align="center">
 [![Build Status](https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
-[![Stories in Ready](https://badge.waffle.io/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg?label=ready&title=Ready)](http://waffle.io/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
 [![GitHub issues](https://img.shields.io/github/issues/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
-</span>
 
 
 {{cookiecutter.short_description}}
@@ -59,13 +56,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-Made with :heart: ️:coffee:️ and :pizza: by [{{ cookiecutter.company }}][link-company].
+Made with :heart: :coffee: and :pizza: by [{{ cookiecutter.company }}][link-company].
+
 - [All Contributors][link-contributors]
 
----
-
-
-<!-- Other -->
 
 [link-company]: https://github.com/{{ cookiecutter.company }}
 [link-author]: {{cookiecutter.github_author}}
