@@ -1,10 +1,8 @@
 # Ansible Role Cookiecutter
 
-<span class="badges" align="center">
 [![Build Status](https://travis-ci.org/dgnest/cookiecutter-ansible-role.svg)](https://travis-ci.org/dgnest/cookiecutter-ansible-role)
 [![GitHub issues](https://img.shields.io/github/issues/dgnest/cookiecutter-ansible-role.svg)](https://github.com/dgnest/cookiecutter-ansible-role/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
-</span>
 
 Cookie cutter recipe to easily create [ansible roles][link-playbooks-roles]
 It infuses antigravity (or maybe not).
@@ -91,10 +89,9 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+Made with :heart: :coffee: and :pizza: by [dgnest][link-company]
 
 - [All Contributors][link-contributors]
- -->
 
 [link-cookiecutter]: https://www.cookiecutter.com
 [link-luis]: https://github.com/luismayta

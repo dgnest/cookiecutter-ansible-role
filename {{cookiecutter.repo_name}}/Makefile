@@ -11,7 +11,6 @@ WGET = wget
 
 # Bin scripts
 CLEAN = $(shell) $(SCRIPT_DIR)/clean.sh
-GVM = $(shell) $(SCRIPT_DIR)/gvm.sh
 GRIP = $(shell) $(SCRIPT_DIR)/grip.sh
 PYENV = $(shell) $(SCRIPT_DIR)/pyenv.sh
 SETUP = $(shell) $(SCRIPT_DIR)/setup.sh
@@ -22,36 +21,35 @@ SYNC = $(shell) $(SCRIPT_DIR)/sync.sh
 LINGUIST = $(shell) $(SCRIPT_DIR)/linguist.sh
 
 clean:
-  $(CLEAN)
+	$(CLEAN)
 
 
 distclean: clean
-  rm -rf $(ROOT_DIR)/lib
-  rm -rf $(ROOT_DIR)/*.egg-info
-  rm -rf $(ROOT_DIR)/demo/*.egg-info
+	rm -rf $(ROOT_DIR)/lib
+	rm -rf $(ROOT_DIR)/*.egg-info
+	rm -rf $(ROOT_DIR)/demo/*.egg-info
 
 
 environment:
-  $(PYENV)
-  $(GVM)
-  $(INSTALL)
+	$(PYENV)
+	$(INSTALL)
 
 
 grip:
-  $(GRIP)
+	$(GRIP)
 
 
 install:
-  $(INSTALL)
+	$(INSTALL)
 
 
 roles:
-  $(ROLES_ANSIBLE)
+	$(ROLES_ANSIBLE)
 
 
 maintainer-clean: distclean
-  rm -rf $(BIN_DIR)
-  rm -rf $(ROOT_DIR)/lib/
+	rm -rf $(BIN_DIR)
+	rm -rf $(ROOT_DIR)/lib/
 
 
 lintcode:
@@ -63,4 +61,4 @@ sync:
 
 
 linguist:
-  $(LINGUIST)
+	$(LINGUIST)

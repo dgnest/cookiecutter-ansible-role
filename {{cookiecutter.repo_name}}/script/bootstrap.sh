@@ -1,19 +1,9 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 
-PROJECT_NAME={{cookiecutter.repo_name}}
-PYTHON_VERSION=2.7.9
-PYENV_NAME="${PROJECT_NAME}"
-
+export PROJECT_NAME={{cookiecutter.repo_name}}
 export PYTHON_VERSION=2.7.9
 export PYENV_NAME="${PROJECT_NAME}"
-
-export GVM_NAME="${PROJECT_NAME}"
-export GVM_PATHS_NAME=(
-    "src"
-    "pkg"
-    "bin"
-)
 
 export GRIP_PORT=6430
 
