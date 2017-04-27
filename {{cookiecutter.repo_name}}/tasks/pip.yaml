@@ -2,9 +2,10 @@
 # task for {{cookiecutter.role_name}}
 
 - name: Install packages via pip {{cookiecutter.short_role_name}}
-  sudo: yes
+  become: yes
   {% raw %}
   pip: name="{{ item.name }}" version="{{ item.version }}"
   {% endraw %}
-  when: {{cookiecutter.short_role_name}}_pip_dependencies is defined
-  with_items: {{cookiecutter.short_role_name}}_pip_dependencies
+  when:
+    - {{cookiecutter.short_role_name}}_pip_dependencies is defined
+  with_items: {{ cookiecutter.short_role_name}}_pip_dependencies
