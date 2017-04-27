@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This file uses change log convention from [Keep a CHANGELOG](http://keepachangelog.com).
 
-## [Unreleased][unreleased]
+## [Unreleased]
 
 
 [Unreleased]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/compare/0.0.1...HEAD
