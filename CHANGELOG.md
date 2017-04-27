@@ -4,12 +4,15 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 
 ## [Unreleased]
 
-## [0.1.9] - 2017-04-27[unreleased]
+## [0.2.0] - 2017-04-27
+
+## [0.1.9] - 2017-04-27
 
 ### Added:
 - fixed
 
-[Unreleased]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.9...HEAD
+[Unreleased]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.2.0...HEAD
+[0.2.0]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.9...0.2.0
 [0.1.9]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.8...0.1.9
 [0.1.8]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.7...0.1.8
 [0.1.7]: https://github.com/dgnest/cookiecutter-ansible-role/compare/0.1.6...0.1.7
