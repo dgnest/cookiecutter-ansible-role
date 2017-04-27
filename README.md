@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/dgnest/cookiecutter-ansible-role.svg)](https://travis-ci.org/dgnest/cookiecutter-ansible-role)
 [![GitHub issues](https://img.shields.io/github/issues/dgnest/cookiecutter-ansible-role.svg)](https://github.com/dgnest/cookiecutter-ansible-role/issues)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/dgnest/cookiecutter-ansible-role.svg)](http://isitmaintained.com/project/dgnest/cookiecutter-ansible-role "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/dgnest/cookiecutter-ansible-role.svg)](http://isitmaintained.com/project/dgnest/cookiecutter-ansible-role "Percentage of issues still open")
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 
 Cookie cutter recipe to easily create [ansible roles][link-playbooks-roles]
