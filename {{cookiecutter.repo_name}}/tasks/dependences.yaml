@@ -6,37 +6,24 @@
   sudo: yes
   apt:
     update_cache: True
-  when: ansible_distribution == "Ubuntu"
+  when:
+    - ansible_os_family == "Debian"
   tags:
     - apt
     - update_cache
 
 - name: Install {{cookiecutter.short_role_name}} package dependencies
-  sudo: yes
-  apt:
+  become: yes
+  package:
   {% raw %}
     name: "{{ item }}"
   {% endraw %}
     state: present
   register: install_{{cookiecutter.short_role_name}}_package_dependencies
-  when: _{{cookiecutter.short_role_name}}_package_dependencies is defined
-  with_items: _{{cookiecutter.short_role_name}}_package_dependencies
+  when:
+    - _{{cookiecutter.short_role_name}}_package_dependencies is defined
+  with_items:
+    - {{"_{{ cookiecutter.short_role_name_package_dependencies}} | default([]) }}"
   tags:
-    - apt
+    - packages
     - dependencies
-- debug: var=install_{{cookiecutter.short_role_name}}_package_dependencies.stdout_lines
-
-- name: Install {{cookiecutter.short_role_name}} dependencies
-  sudo: yes
-  apt:
-  {% raw %}
-    name: "{{ item.name }}"
-  {% endraw %}
-    state: present
-  register: install_{{cookiecutter.short_role_name}}_dependencies
-  when: _{{cookiecutter.short_role_name}}_dependencies is defined
-  with_items: _{{cookiecutter.short_role_name}}_dependencies
-  tags:
-    - apt
-    - dependencies
-- debug: var=install_{{cookiecutter.short_role_name}}_dependencies.stdout_lines

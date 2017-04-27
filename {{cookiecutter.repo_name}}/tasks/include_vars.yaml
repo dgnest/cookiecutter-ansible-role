@@ -9,5 +9,4 @@
    - "{{ ansible_distribution }}.yaml"
    - "{{ ansible_os_family }}.yaml"
    - "main.yaml"
-- debug: var=foo
 {% endraw %}
