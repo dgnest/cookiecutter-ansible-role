@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
 [![GitHub issues](https://img.shields.io/github/issues/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/issues)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](http://isitmaintained.com/project/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}} "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](http://isitmaintained.com/project/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}} "Percentage of issues still open")
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 
 
