@@ -10,4 +10,5 @@
     owner: "{{ item.owner }}"
   {% endraw %}
   with_items: _{{cookiecutter.short_role_name}}_create_files
-  when: _{{cookiecutter.short_role_name}}_create_files is defined
+  when:
+    - _{{cookiecutter.short_role_name}}_create_files is defined
