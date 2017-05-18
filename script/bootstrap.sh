@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 
-PROJECT_NAME=ansible-role-nginx
+PROJECT_NAME=cookiecutter-ansible-role
 
 export PYTHON_VERSION=2.7.9
 export PYENV_NAME="${PROJECT_NAME}"

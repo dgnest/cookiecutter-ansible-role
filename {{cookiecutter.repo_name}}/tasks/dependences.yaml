@@ -23,7 +23,7 @@
   when:
     - _{{cookiecutter.short_role_name}}_package_dependencies is defined
   with_items:
-    - {{"_{{ cookiecutter.short_role_name_package_dependencies}} | default([]) }}"
+    - {{"_{{ cookiecutter.short_role_name_package_dependencies }} | default([]) }}"}}
   tags:
     - packages
     - dependencies
